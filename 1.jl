@@ -51,5 +51,6 @@ end
     @test 5 == day1_part2("()())")
 end
 
-println("""Day 1, Part 1: $(day1_part1(read("1.txt",String)))""")
-println("""Day 1, Part 2: $(day1_part2(read("1.txt",String)))""")
+const day1_input = read("1.txt", String)
+println("""Day 1, Part 1: $(day1_part1(day1_input))""")
+println("""Day 1, Part 2: $(day1_part2(day1_input))""")
